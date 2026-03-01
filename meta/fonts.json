@@ -1,0 +1,78 @@
+{
+  "body": {
+    "family": "adobe-garamond-pro",
+    "weight": "400",
+    "size": "18px",
+    "line-height": "1.6em"
+  },
+  "h1": {
+    "family": "adobe-garamond-pro",
+    "weight": "600",
+    "size": "36px"
+  },
+  "h2": {
+    "family": "adobe-garamond-pro",
+    "weight": "400",
+    "size": "34px",
+    "transform": "capitalize"
+  },
+  "h3": {
+    "family": "proxima-nova",
+    "weight": "600",
+    "size": "16px",
+    "letter-spacing": "2px",
+    "transform": "uppercase"
+  },
+  "nav": {
+    "family": "Montserrat",
+    "weight": "700",
+    "size": "15px",
+    "transform": "uppercase"
+  },
+  "nav-button": {
+    "family": "proxima-nova",
+    "weight": "800",
+    "letter-spacing": "1px",
+    "transform": "uppercase"
+  },
+  "site-title": {
+    "family": "proxima-nova",
+    "weight": "600",
+    "size": "20px",
+    "letter-spacing": "2px",
+    "transform": "uppercase"
+  },
+  "footer-nav": {
+    "family": "proxima-nova",
+    "weight": "400",
+    "size": "13px",
+    "letter-spacing": "2px",
+    "transform": "uppercase"
+  },
+  "banner-heading": {
+    "family": "proxima-nova",
+    "weight": "700",
+    "size": "68px",
+    "letter-spacing": "4px",
+    "transform": "uppercase"
+  },
+  "banner-text": {
+    "family": "adobe-garamond-pro",
+    "weight": "400",
+    "style": "italic",
+    "size": "24px",
+    "letter-spacing": "1px"
+  },
+  "subnav-title": {
+    "family": "Montserrat",
+    "weight": "400",
+    "size": "36px"
+  },
+  "subnav-link": {
+    "family": "Montserrat",
+    "weight": "400",
+    "size": "14px",
+    "letter-spacing": "2px",
+    "decoration": "underline"
+  }
+}

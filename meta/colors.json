@@ -1,0 +1,18 @@
+{
+  "brand-primary": "#ad2c4d",
+  "brand-gold": "#a47f38",
+  "nav-color": "#a47f38",
+  "nav-active-color": "#000",
+  "body-text": "rgba(26,26,26,0.7)",
+  "body-bg": "#ffffff",
+  "site-bg": "#1f1f1f",
+  "pre-footer-bg": "#333333",
+  "h1-color": "rgba(26,26,26,0.9)",
+  "h2-color": "#4a4a4a",
+  "h3-color": "rgba(26,26,26,0.9)",
+  "link-color": "#ad2c4d",
+  "button-bg": "#ad2c4d",
+  "button-text": "#ffffff",
+  "nav-button-bg": "#a47f38",
+  "sidebar-header-color": "#a82f2f"
+}
