@@ -1,0 +1,13 @@
+{
+  "name": "WorkforceAP",
+  "author": "Mike Brown / mabrown040",
+  "site-id": "69231ae48d79d76b4c054801",
+  "identifier": "whale-yellow-72j5",
+  "domain": "www.workforceap.org",
+  "template-id": "52a74dafe4b073a80cd253c5",
+  "template-name": "Avenue",
+  "template-version": "7",
+  "captured": "2026-02-28",
+  "developer-mode": false,
+  "note": "Set developer-mode to false - DO NOT reconnect git until this baseline is committed"
+}

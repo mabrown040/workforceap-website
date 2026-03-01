@@ -1,0 +1,228 @@
+/*
+ * WorkforceAP Custom CSS
+ * Site: whale-yellow-72j5 | www.workforceap.org
+ * Template: Avenue (52a74dafe4b073a80cd253c5)
+ * Captured: 2026-02-28 (Phase 2 complete state)
+ *
+ * Primary brand colors extracted from live site:
+ *   Brand Red/Crimson:  #ad2c4d
+ *   Brand Gold:         #a47f38
+ *   Dark BG:            #1f1f1f
+ *   Pre-footer BG:      #333
+ *   Body text:          rgba(26,26,26,0.7)
+ *   Body BG:            #fff
+ *
+ * Primary fonts:
+ *   Body:       adobe-garamond-pro, 18px, 1.6 line-height
+ *   H1:         adobe-garamond-pro, 600, 36px
+ *   H2:         adobe-garamond-pro, 400, 34px, capitalize
+ *   H3:         proxima-nova, 600, 16px, uppercase, letter-spacing 2px
+ *   Nav:        Montserrat, 700, 15px, uppercase
+ *   Footer nav: proxima-nova, 400, 13px, uppercase, letter-spacing 2px
+ */
+
+/* ========================================
+   BRAND COLORS
+   ======================================== */
+
+/* Primary accent - used for links, buttons, nav button bg */
+:root {
+  --brand-red: #ad2c4d;
+  --brand-gold: #a47f38;
+  --dark-bg: #1f1f1f;
+  --pre-footer-bg: #333;
+}
+
+/* ========================================
+   NAVIGATION
+   ======================================== */
+#headerNav nav a,
+#sidecarNav nav a {
+  color: var(--brand-gold);
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+#headerNav nav a:hover,
+#sidecarNav nav a:hover,
+#headerNav nav .active > a,
+#sidecarNav nav .active > a {
+  color: #000;
+}
+
+/* Nav donate/CTA button */
+.enable-nav-button #headerNav nav > div:not(.folder):last-child a,
+.enable-nav-button #sidecarNav nav > div:not(.folder):last-child a {
+  background-color: var(--brand-gold);
+  color: #fff;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ========================================
+   BUTTONS
+   ======================================== */
+body:not(.button-style-default) .sqs-editable-button,
+body:not(.button-style-default) .sqs-editable-button-color,
+body:not(.button-style-default) .tock-block div#Tock_widget_container > div.TockWidgetWrapper .TockButton-blue {
+  color: #fff;
+  background-color: var(--brand-red);
+  border-color: var(--brand-red);
+}
+
+body:not(.button-style-default) .sqs-editable-button,
+body:not(.button-style-default) .sqs-editable-button-font {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* ========================================
+   LINKS
+   ======================================== */
+.html-block a:not(.sqs-block-button-element),
+.markdown-block a:not(.sqs-block-button-element) {
+  color: var(--brand-red);
+  text-decoration: none;
+}
+
+/* ========================================
+   TYPOGRAPHY
+   ======================================== */
+body {
+  background-color: var(--dark-bg);
+}
+
+#siteWrapper {
+  font-family: adobe-garamond-pro, Georgia, serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 1.6em;
+  color: rgba(26, 26, 26, 0.7);
+  background-color: #fff;
+}
+
+h1, .entry-title {
+  font-family: adobe-garamond-pro, Georgia, serif;
+  font-weight: 600;
+  font-size: 36px;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.2em;
+  color: rgba(26, 26, 26, 0.9);
+}
+
+h2 {
+  font-family: adobe-garamond-pro, Georgia, serif;
+  font-weight: 400;
+  font-size: 34px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  line-height: 0.9em;
+  color: #4a4a4a;
+}
+
+h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  color: rgba(26, 26, 26, 0.9);
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+#footer {
+  background-color: var(--dark-bg);
+}
+
+#footer nav:not(.sqs-svg-icon--list) a,
+#footer nav:not(.sqs-svg-icon--list) a:visited {
+  color: #fff;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#preFooter {
+  background-color: var(--pre-footer-bg);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ========================================
+   SIDEBAR / CATEGORY NAV
+   ======================================== */
+.category-nav .nav-section-label,
+.folder-nav .nav-section-label {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0;
+  text-transform: none;
+  color: #a82f2f;
+}
+
+/* ========================================
+   SITE TITLE
+   ======================================== */
+#siteTitle,
+#siteTitle a {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* ========================================
+   BANNER / HERO
+   ======================================== */
+.desc-wrapper p > strong,
+.desc-wrapper p > em > strong {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-size: 68px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1em;
+  color: #fff;
+}
+
+.desc-wrapper p:last-child > a {
+  background-color: var(--brand-red);
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* ========================================
+   SUMMARY BLOCKS
+   ======================================== */
+.sqs-block-summary-v2 .summary-title a,
+.sqs-block-summary-v2 .summary-heading a {
+  color: #666;
+}
+
+.sqs-block-summary-v2 .summary-title a:hover,
+.sqs-block-summary-v2 .summary-heading a:hover,
+.sqs-block-summary-v2 a {
+  color: var(--brand-red);
+}
